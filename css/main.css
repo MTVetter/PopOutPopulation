@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    /* font-size: 0.9em; */
+    overflow: hidden;
+    background-color: #e8e8e8;
+}
+svg {
+    max-width: 960px;
+    max-height: 90vh;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+rect.background {
+    fill: none;
+    pointer-events: all;
+}
+path.feature {
+    stroke-width: 0.75px;
+    stroke: #fff;
+    /* fill: #a6bddb; */
+    cursor: pointer;
+}
+#footer{
+    height: 50vh;
+    width: 100vw;
+}
+#footer div{
+    display: inline-block;
+}
+#pop{
+    opacity: 0;
+    padding: 25px;
+}
+h2{
+    padding-top: 20px;
+}
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px;
+}
+/* .infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+} */
