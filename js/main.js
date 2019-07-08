@@ -38,8 +38,8 @@ var activeFeature = d3.select(null),
 
 //Color symbology for the counties based on the 2016 population totals
 var color = d3.scaleThreshold()
-  .domain([0, 10000, 50000, 2000000])
-  .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1"]);
+  .domain([10000, 20000, 40000, 80000, 500000, 1000000])
+  .range(["#fff", "#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
 
 
 //Load and draw the counties
