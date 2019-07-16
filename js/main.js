@@ -149,6 +149,8 @@ function bringUpFeature(geoJsonDatum) {
     .text(geoJsonDatum.properties.County)
     .style("font-size", "65px")
     .style("font-family", "Yellowtail")
+    .style("margin-bottom", "-35px")
+    .style("margin-top", "-25px")
     .style("opacity", "100");
 
   d3.select("#county-1980-pop")
