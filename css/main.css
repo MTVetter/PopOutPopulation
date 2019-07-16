@@ -40,3 +40,9 @@ h2{
 .margin{
     margin-bottom: -10px;
 }
+#firstRow{
+    margin-bottom: -40px;
+}
+#secondRow{
+    margin-top: -15px;
+}
