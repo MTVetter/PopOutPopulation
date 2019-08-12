@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    overflow: hidden;
+    background-color: #cacaca;
+}
+svg {
+    max-width: 960px;
+    max-height: 90vh;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+rect.background {
+    fill: none;
+    pointer-events: all;
+}
+path.feature {
+    stroke-width: 0.75px;
+    stroke: #fff;
+    cursor: pointer;
+}
+#footer{
+    height: 50vh;
+    width: 100vw;
+}
+#footer div{
+    display: inline-block;
+}
+#pop{
+    opacity: 0;
+    padding: 25px;
+}
+h2{
+    padding-top: 20px;
+}
+.margin{
+    margin-bottom: -10px;
+}
+#firstRow{
+    margin-bottom: -40px;
+}
+#secondRow{
+    margin-top: -15px;
+}
+
+@media screen and (max-width: 415px){
+    #footer{
+        display: flex;
+        flex-direction: row;
+    }
+    #pop{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: unset;
+        margin-bottom: -20%;
+    }
+    #secondRow{
+        margin-top: 15px;
+    }
+}
